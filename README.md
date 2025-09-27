@@ -75,26 +75,6 @@ Script Python para OBS Studio que troca automaticamente entre cenas de monitor b
 - Configure **atalhos de teclado** no OBS para iniciar/parar rapidamente
 - Use em conjunto com **transições personalizadas** para efeitos suaves
 
-## 🏗️ Estrutura do Código
-
-obs.py
-├── Classe MouseMonitor
-│ ├── init() - Inicialização
-│ ├── is_caps_lock_on() - Detecção do Caps Lock
-│ ├── get_current_monitor() - Detecção do monitor atual
-│ ├── switch_scene() - Troca de cenas
-│ ├── monitor_loop() - Loop principal
-│ ├── start() - Inicia monitoramento
-│ └── stop() - Para monitoramento
-├── Funções OBS
-│ ├── script_description()
-│ ├── script_properties()
-│ ├── script_defaults()
-│ ├── script_update()
-│ ├── start_script()
-│ ├── stop_script()
-│ └── script_unload()
-
 ## 📄 Licença
 
 Este script é disponibilizado gratuitamente para uso pessoal e profissional. Desenvolvido por **@enricomalta**.
